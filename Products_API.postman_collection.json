@@ -36,7 +36,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "\r\n{\r\n    \"title\": \"Playstation 5\",\r\n    \"description\": \"Brand new gaming console\",\r\n    \"price\": \"600.00\",\r\n    \"inventory_quantity\": 4\r\n}",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"Xbox One Series X\",\r\n    \"description\": \"Brand new gaming console\",\r\n    \"price\": \"800.00\",\r\n    \"inventory_quantity\": 2,\r\n    \"image_link\": \"\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -94,7 +94,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "\r\n{\r\n    \"title\": \"Playstation 3\",\r\n    \"description\": \"Brand new gaming console\",\r\n    \"price\": \"200.00\",\r\n    \"inventory_quantity\": 6\r\n}",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"Xbox One Series X\",\r\n    \"description\": \"Brand new gaming console\",\r\n    \"price\": \"800.00\",\r\n    \"inventory_quantity\": 2,\r\n    \"image_link\": \"https://gamein.nl/images/webshop_pics/big/x41738_1.jpg.pagespeed.ic.RpEiV1zuko.jpg\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -102,7 +102,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/2/",
+					"raw": "http://127.0.0.1:8000/api/products/1/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -114,7 +114,7 @@
 					"path": [
 						"api",
 						"products",
-						"2",
+						"1",
 						""
 					]
 				}
